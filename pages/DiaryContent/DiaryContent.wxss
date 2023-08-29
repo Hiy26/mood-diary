@@ -1,0 +1,5 @@
+/* pages/DiaryInner.wxss */
+page{
+  background-color: #FAF4DC;
+
+}

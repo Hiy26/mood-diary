@@ -1,0 +1,36 @@
+<!--pages/DiaryInner.wxml-->
+<view style="padding: 10px;">
+ 
+  <view style="border-radius:25rpx;box-shadow:3px 3px 0px #e0e0e0;border-style: solid;border-width: 1px;border-color:#e0e0e0;height: 60px;margin-top: 10px;position: relative;background-color:burlywood;padding: 20px;">
+     <view style="font-weight: bold;">Time:{{DateTime}}</view>      
+     <view style="font-weight: bold;margin-top: 10px;">心情:</view>   
+     <image src="../../image/mood/{{Mood}}.png" mode="widthFix" style="position:absolute;width: 55px;right: 20px;top: 20px"></image>   
+  </view>
+  <view style="height: 40px;text-align: center;font-weight:900px;padding-top: 6px;margin-top: 10px;">
+  <text style="font-weight: bold; font-size:25px;word-break: break-all;">{{Title}}</text>
+  </view>
+  <view style="border-radius:25rpx;box-shadow:3px 3px 0px #e0e0e0;border-style: solid;border-width: 1px;width: auto;margin-top: 10px;padding: 20px;background-color:white;border-color:#e0e0e0;">
+    <view style="margin-top: 5px;">
+        <text style="margin-left: 20px;font-weight: bold;font-size: 25px;">"{{Short}}</text> 
+        <text style="font-weight: bold;word-break: break-all;">{{Long}}"</text> 
+    </view>
+   
+  </view>
+
+ <view style="position: relative;">
+
+  <!--<image src="../../image/tomato.png" style="width: 150px; height: 150px;margin-top: 10px;position: absolute;left: 110px;" bindtap="OnBtnTapped"
+  </image>
+  
+  <text style="position: absolute; left: 160px;top: 75px; color: white;font-size: 25px;" >返回</text>
+  -->
+ </view>
+
+
+
+
+
+
+
+
+</view>

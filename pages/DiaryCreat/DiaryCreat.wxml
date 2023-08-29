@@ -1,0 +1,32 @@
+<view class="btn_class" style="position: relative;margin-top: 5px;">
+    <image src="../../image/type/r.png" mode="widthFix" style="width: 40px;position: absolute; left: 5px;" bindtap="OnTapped2"></image>
+    <image src="../../image/type/w.png" mode="widthFix" style="width: 35px;position: absolute; right: 5px;" bindtap="OnTapped1"></image>
+</view>
+
+ <view class="option" style="text-align: center;margin-top:5px;">
+   
+    <view class="time">{{Time}}</view>
+    <view >此刻心情：</view>
+
+    <radio-group name="type" class="type" bindchange="OnChange">  
+    <radio style="" value="1" checked="true"> <image src="../../image/mood/1.png" class="type-img" mode="widthFix" /></radio>
+    <radio value="2"> <image src="../../image/mood/2.png" class="type-img" /></radio>
+    <radio value="3"> <image src="../../image/mood/3.png" class="type-img"/></radio>
+    <radio value="4"> <image src="../../image/mood/4.png" class="type-img" /></radio>
+    <radio value="5"> <image src="../../image/mood/5.png" class="type-img" /></radio>
+    <radio value="6"> <image src="../../image/mood/6.png" class="type-img" /></radio>
+    <radio value="7"> <image src="../../image/mood/7.png" class="type-img" /></radio>
+    <radio value="8"> <image src="../../image/mood/8.png" class="type-img" /></radio>
+    <radio value="9"> <image src="../../image/mood/9.png" class="type-img" /></radio>
+    <radio value="10"> <image src="../../image/mood/10.png" class="type-img" /></radio>
+
+    </radio-group>
+
+    <input style="background-color: burlywood;border-radius: 25rpx;margin: 10px"  class="title" auto-focus placeholder="请输入标题" value="{{Title}}" bindinput="OnInputing1"></input>
+
+    
+</view>
+
+<textarea  maxlength="-1" class="write" style="border-radius:25rpx;margin: 15px;box-shadow: 3px 3px 0px #e0e0e0;height: 500px;width: auto;border-style: solid;border-width: 1px;border-color: #e0e0e0;margin-top: 1px;padding: 20px;background-color: white;" bindinput="OnInputing2" value="{{Text}}" placeholder="输入内容">
+    </textarea>
+ 

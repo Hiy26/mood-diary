@@ -1,0 +1,27 @@
+.type-img{
+  height: 30px;
+  width: 30px;
+  margin: 3px 8px 1px 3px;
+}
+.title{
+  height: 40px;
+  margin-top: 0px;
+  border: #e0e0e0;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 2px 2px 0px #e0e0e0;
+
+}
+.option{
+  padding: 5px;
+
+}
+.btn_class{
+  display: flex;
+  justify-content: center;
+}
+page{
+background-color: #FAF4DC;
+
+
+}
