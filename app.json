@@ -1,0 +1,15 @@
+{
+  "pages": [ 
+    "pages/DiaryAll/DiaryAll",
+    "pages/DiaryCreat/DiaryCreat",
+    "pages/DiaryContent/DiaryContent"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#e26f6f",
+    "navigationBarTitleText": "mood日记本",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
